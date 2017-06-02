@@ -1,0 +1,342 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!--link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"-->
+    
+    <!-- Latest compiled and minified JavaScript -->
+    <!--script src="https://code.jquery.com/jquery-3.2.1.js"></script-->
+<!--script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script-->
+    
+    
+    <!--script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.9/semantic.min.js" crossorigin="anonymous"></script-->
+<!--    <script src="js/planner.bundle.js"></script>-->
+    <!--link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"-->
+    
+    <link rel = "stylesheet" type = "text/css"  href = "assets/css/bootstrap.css" />
+<link href="css/style.css" rel="stylesheet"></head>
+
+<html>
+<body>
+   <header>
+       <div class="container">
+           <div class="row">
+               <div class="col-md-2 visible-lg">
+                    <img src="./assets/img/logo.jpg" alt="image">
+               </div>
+
+
+               <div class="col-md-10 visible-lg headerLeft">
+                   <div class="glyphicon glyphicon-lock" style="font-size: 28px;top: 8px;"> </div>
+                   <input type="text" placeholder="Enter your location" class="location"/>
+                   <input type="text" placeholder="Enter your event" class="event"/>
+                   <button type="button" class="search" >Game On</button>
+               </div>
+
+               <div class="mob-menu-button  col-xs-12 hidden-lg" style="padding:0px;margin:0px; text-align: center; position: relative;">
+                    
+                   
+                            <a href="#" class="btn btn-info btn-lg x-menu-color" style="position: absolute; top: 0px; left: 0px;">
+                              <span class="glyphicon glyphicon-menu-hamburger hidden-lg"></span>
+                            </a>
+                   
+                            <img src="./assets/img/logo.jpg" alt="image" style="display: inline-block; height: 39px;">
+                        
+               </div>
+               
+               
+           </div>
+           
+           
+       </div>       
+</header>
+
+   
+<div class="container">
+
+    <div class="row" style="position: relative;"> 
+        <!-- for mobile, Left Navigation menu-->
+           <div class="mob-menu col-xs-6 hidden-lg leftContent hidden-lg" style="position: absolute; z-index: 1; background-color: rgba(29, 59, 74, 0.48);  overflow: hidden; padding: 0px; margin: 0px; display: none; height: 100%;">
+               <div class="container-fluid" style="padding: 0px; margin: 0px;">
+                   
+                       <div class="row" style="padding: 0px; margin: 0px; position: relative;">
+                            <div class="col-xs-12 hidden-lg" style="top: 15px; position: absolute;">
+                                <input type="text" placeholder="Enter your location" style="margin-top: 15px; position: absolute;" class="xs-menu-input"/>
+                                <br>
+                                <input type="text" placeholder="Enter your event" style="margin-top: 30px; position: absolute;" class="xs-menu-input"/ >
+                                <br>
+                                <button type="button" style="margin-top: 45px; position: absolute;" class="mob-search">Game On</button>
+                                <br>
+                                <div class="glyphicon glyphicon-lock" style="font-size: 28px;top: 58px;"> </div>
+                           </div>
+                       </div>
+                   </div>
+            </div>
+           <!--/.nav-collapse -->
+        
+        
+        
+        <!-- for mobile, Left Navigation menu-->
+        <div style="position: absolute; background-color: rgba(230, 231, 232, 0.12);z-index: 1;margin-left: 41.6666%;text-align: right;padding: 0px;top: -1px;left: 1px; cursor: pointer;" class="col-xs-1 hidden-lg glyphicon glyphicon-remove hideMobRightPane" >
+                                <!--a href="javascript:void(0);" style="
+                                    text-decoration: none;
+                                    font-size: 20px !important;
+                                    font-weight: bolder;
+                                    color: #000000 !important;
+                                    line-height: 13px;
+                                    ">×
+                                </a-->
+                            </div>
+           <div class="mob-right-pane col-xs-6 hidden-lg leftContent" style="position: absolute; z-index: 1; background-color: rgb(91, 192, 222);  overflow: hidden; padding: 0px; margin: 0px; margin-left: 50%; height: 100%;">
+               
+               
+               <div class="container-fluid" style="padding: 0px; margin: 0px;">
+                   
+                   
+                        <div class="row" style="padding: 0px; margin: 0px; position: relative;">
+                            
+                            
+                           
+                            <div class="event-container" style="overflow-y: scroll; height: 100%;">
+                            
+                                
+                                <div class="mob-event-row">
+                            
+                                    <div class="mob-event-col">
+                                        Nirvana paragliding
+                                    </div>
+
+                                    <div class="mob-event-col">
+                                        27 April
+                                    </div>
+
+                                    <br>
+
+                                    <div class="mob-event-col">
+                                        10:00 AM
+                                    </div>
+
+                                    <div class="mob-event-col">
+                                        2200
+                                    </div>
+
+                                    <br>
+
+                                    <div class="mob-event-col">
+                                        11:00 AM
+                                    </div>
+
+                                    <div class="mob-event-col">
+                                        2500
+                                    </div>
+                                </div>
+                            
+                            
+                                <div class="mob-event-row">
+                            
+                                    <div class="mob-event-col">
+                                        Nirvana paragliding
+                                    </div>
+
+                                    <div class="mob-event-col">
+                                        27 April
+                                    </div>
+
+                                    <br>
+
+                                    <div class="mob-event-col">
+                                        10:00 AM
+                                    </div>
+
+                                    <div class="mob-event-col">
+                                        2200
+                                    </div>
+
+                                    <br>
+
+                                    <div class="mob-event-col">
+                                        11:00 AM
+                                    </div>
+
+                                    <div class="mob-event-col">
+                                        2500
+                                    </div>
+                                </div>
+                                
+                                <div class="mob-event-row">
+                            
+                                    <div class="mob-event-col">
+                                        Nirvana paragliding
+                                    </div>
+
+                                    <div class="mob-event-col">
+                                        27 April
+                                    </div>
+
+                                    <br>
+
+                                    <div class="mob-event-col">
+                                        10:00 AM
+                                    </div>
+
+                                    <div class="mob-event-col">
+                                        2200
+                                    </div>
+
+                                    <br>
+
+                                    <div class="mob-event-col">
+                                        11:00 AM
+                                    </div>
+
+                                    <div class="mob-event-col">
+                                        2500
+                                    </div>
+                                </div>
+                            
+                            </div>
+                            
+                       </div>
+                   </div>
+            </div>
+           <!--/.nav-collapse -->
+        
+      <div class="col-lg-3 leftContent visible-lg">
+          <table class="table">
+                <tr>
+                    <td>Nirvana paragliding</td>
+                    <td>27 April</td>
+                </tr>
+                <tr>
+                    <td>10:00 AM</td>
+                    <td>1500</td>
+                </tr>
+                <tr>
+                    <td>11:00 AM</td>
+                    <td>2000</td>
+                </tr>
+                <tr/>
+                <tr/>
+            </table>
+          <table class="table">
+                <tr>
+                    <td>Nirvana paragliding</td>
+                    <td>27 April</td>
+                </tr>
+                <tr>
+                    <td>10:00 AM</td>
+                    <td>1500</td>
+                </tr>
+                <tr>
+                    <td>11:00 AM</td>
+                    <td>2000</td>
+                </tr>
+                <tr/>
+                <tr/>
+            </table>
+          <table class="table">
+                <tr>
+                    <td>Nirvana paragliding</td>
+                    <td>27 April</td>
+                </tr>
+                <tr>
+                    <td>10:00 AM</td>
+                    <td>1500</td>
+                </tr>
+                <tr>
+                    <td>11:00 AM</td>
+                    <td>2000</td>
+                </tr>
+                <tr/>
+                <tr/>
+            </table>
+          <table class="table">
+                <tr>
+                    <td>Nirvana paragliding</td>
+                    <td>27 April</td>
+                </tr>
+                <tr>
+                    <td>10:00 AM</td>
+                    <td>1500</td>
+                </tr>
+                <tr>
+                    <td>11:00 AM</td>
+                    <td>2000</td>
+                </tr>
+                <tr/>
+                <tr/>
+            </table>
+          <table class="table">
+                <tr>
+                    <td>Nirvana paragliding</td>
+                    <td>27 April</td>
+                </tr>
+                <tr>
+                    <td>10:00 AM</td>
+                    <td>1500</td>
+                </tr>
+                <tr>
+                    <td>11:00 AM</td>
+                    <td>2000</td>
+                </tr>
+                <tr/>
+                <tr/>
+            </table>
+          <table class="table">
+                <tr>
+                    <td>Nirvana paragliding</td>
+                    <td>27 April</td>
+                </tr>
+                <tr>
+                    <td>10:00 AM</td>
+                    <td>1500</td>
+                </tr>
+                <tr>
+                    <td>11:00 AM</td>
+                    <td>2000</td>
+                </tr>
+                <tr/>
+                <tr/>
+            </table>
+          
+          <table class="table">
+                <tr>
+                    <td>Nirvana paragliding</td>
+                    <td>27 April</td>
+                </tr>
+                <tr>
+                    <td>10:00 AM</td>
+                    <td>1500</td>
+                </tr>
+                <tr>
+                    <td>11:00 AM</td>
+                    <td>2000</td>
+                </tr>
+                <tr/>
+                <tr/>
+            </table>
+      </div>
+        
+        <div class="col-lg-9" style="border: 1px solid; padding:0px;height: 90%;">
+          
+             <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'>
+             </script>
+      
+              <div id='gmap_canvas' >
+              </div>
+            
+              <style>              
+              </style>
+            
+              <script type='text/javascript'>
+                  function init_map(){var myOptions = {zoom:10,center:new google.maps.LatLng(50.98512373039987,1.4233739021484526),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(50.98512373039987,1.4233739021484526)});infowindow = new google.maps.InfoWindow({content:'<strong>Title</strong><br>London, United Kingdom<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);
+              </script>
+    
+        </div>
+    </div>
+     
+</div>
+<script type="text/javascript" src="js/planner.bundle.js"></script></body>
+      
+</html>
